@@ -202,7 +202,6 @@
 
 .visual-refresh .sidebarList_c48ade {
     border: 0;
-    box-shadow: var(--box-shadow);
     margin-left: 20px;
 }
 
@@ -220,15 +219,6 @@
 
 .visual-refresh .chat_f75fb0 {
     background: none;
-}
-
-.visual-refresh .sidebar_c48ade:after {
-    background: none;
-}
-
-.container__133bf,
-.chat_f75fb0 {
-    box-shadow: var(--box-shadow);
 }
 
 .visual-refresh .title__85643 {
