@@ -1,0 +1,150 @@
+:root {
+    --background-secondary: rgba(26, 26, 26, 0.750) !important;
+    --background-primary: rgba(24, 24, 24, 0.750) !important;
+    --status-danger-rgb: color-mix(in srgb, rgb(152,51,255), black 50%) !important;
+    --button-background-static: color-mix(in srgb, var(--highlight), black 5%);
+    --darkPurple-bgcolor: 46, 0, 58;
+    --darkPurple-background: rgba(var(--darkPurple-bgcolor), 0.25); 
+    --darkPurple-background-highopacity: color-mix(in srgb, rgba(var(--darkPurple-bgcolor), 0.75), black 30%); 
+}
+
+::selection {
+    background-color: var(--highlight) !important;
+}
+
+/* Reposition BD notices */
+#bd-notices {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+
+/* Server list bar */
+.guilds_c48ade {
+    margin-bottom: calc(0+var(--space-xs)) !important;
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
+}
+.guilds_c48ade .itemsContainer_ef3116 > div:first-child {
+    padding-top: 10px;
+}
+
+
+/* Remove channel member backgrounds for a flatter list */
+.member_c8ffbb {
+    background: none;
+}
+
+
+/* Text input */
+.autocomplete__13533 {
+    background-color: color-mix(in srgb, rgb(var(--darkPurple-bgcolor)), black 50%);
+}
+
+.channelTextArea_f75fb0:focus-within {
+    border-color: #322840 !important;
+}
+
+
+/* Panel spacing fixes */
+.platform-win .chat_f75fb0 {
+    margin-left: 0px;
+}
+
+.platform-osx .sidebar_c48ade {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.sidebarListRounded_c48ade {
+    border-bottom-left-radius: var(--radius-md);
+}
+
+
+/* Activity Panel */
+.visual-refresh .container__37e49 {
+    border: none !important;
+    background: none !important;
+}
+
+.visual-refresh .panels_c48ade {
+    border: 1px solid var(--highlight) !important;
+    background-color: var(--darkPurple-background-highopacity) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.visual-refresh .container_e131a9 {
+    border: none !important;
+}
+
+.visual-refresh .activityPanel_c48ade {
+    border: none !important;
+    background: none !important;
+}
+
+/* Fix profile panel corner */
+.visual-refresh .panel_c0bea0 {
+    border-bottom-left-radius: 0px !important;
+}
+
+/* Unread DM icon color */
+.numberBadge__2b1f5 {
+    --status-danger: var(--highlight);
+}
+
+
+/* Windows button theming */
+.winButtonMinMax_c38106:nth-of-type(1) {
+    border-top-left-radius: var(--radius-md);
+    border-bottom-left-radius: var(--radius-md);
+    margin-left: 10px;
+}
+
+
+.header_c6bf1b {
+    background-color: var(--darkPurple-background);
+    border-radius: 10px;
+    border: 1px solid var(--highlight);
+}
+ 
+.container_d5ae15 {
+    background-color: var(--background-tertiary);
+}
+
+.container_ac6cb0 {
+    background-color: var(--darkPurple-background);
+    height: auto;
+    border-width: 2px !important;
+    backdrop-filter: blur(3px);
+}
+
+.visual-refresh .quickswitcher_ac6cb0 {
+    background-color: var(--darkPurple-background);
+}
+
+.visual-refresh .scroller_ac6cb0 {
+    margin-right: 0px;
+    background: none;
+}
+
+.visual-refresh .base_c48ade:has(#bd-notices .bd-notice) {
+    margin-top: 0px;
+}
+
+.visual-refresh .emojiPicker_c0e32c {
+    background-color: var(--darkPurple-background-highopacity);
+}
+
+.visual-refresh #emoji-picker-tab-panel {
+    background-color: var(--darkPurple-background-highopacity);
+}
+
+.visual-refresh .popoverReactionHoverBar_f84418 {
+    background: var(--darkPurple-background-highopacity);
+}
+
+.visual-refresh .page_c48ade .container__133bf {
+    margin-left: 0;
+}
