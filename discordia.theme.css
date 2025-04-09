@@ -12,6 +12,8 @@
 @import url("https://salanth357.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
 @import url("https://salanth357.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
 
+@import url("https://salanth357.github.io/DiscordDiscordia/AWKGLASS/awkglass.overrides.css");
+
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
   --rgb-highlight: 178, 102, 255;                          /* 4, 217, 255; /* The main highlight color */
