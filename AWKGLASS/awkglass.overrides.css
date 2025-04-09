@@ -20,13 +20,11 @@
     width: 100%;
 }
 
-
+.visual-refresh .base_c48ade:has(#bd-notices .bd-notice) {
+    margin-top: 0px;
+}
 
 /* Server list bar */
-.guilds_c48ade {
-    margin-bottom: calc(0+var(--space-xs)) !important;
-    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
-}
 .guilds_c48ade .itemsContainer_ef3116 > div:first-child {
     padding-top: 10px;
 }
@@ -62,27 +60,10 @@
     border-bottom-left-radius: var(--radius-md);
 }
 
-
-/* Activity Panel */
-.visual-refresh .container__37e49 {
-    border: none !important;
-    background: none !important;
+.visual-refresh .page_c48ade .container__133bf {
+    margin-left: 0;
 }
 
-.visual-refresh .panels_c48ade {
-    border: 1px solid var(--highlight) !important;
-    background-color: var(--darkPurple-background-highopacity) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-.visual-refresh .container_e131a9 {
-    border: none !important;
-}
-
-.visual-refresh .activityPanel_c48ade {
-    border: none !important;
-    background: none !important;
-}
 
 /* Fix profile panel corner */
 .visual-refresh .panel_c0bea0 {
@@ -103,16 +84,7 @@
 }
 
 
-.header_c6bf1b {
-    background-color: var(--darkPurple-background);
-    border-radius: 10px;
-    border: 1px solid var(--highlight);
-}
- 
-.container_d5ae15 {
-    background-color: var(--background-tertiary);
-}
-
+/* quick switcher */
 .container_ac6cb0 {
     background-color: var(--darkPurple-background);
     height: auto;
@@ -129,22 +101,33 @@
     background: none;
 }
 
-.visual-refresh .base_c48ade:has(#bd-notices .bd-notice) {
-    margin-top: 0px;
-}
 
+/* emoji picker */
 .visual-refresh .emojiPicker_c0e32c {
     background-color: var(--darkPurple-background-highopacity);
 }
 
 .visual-refresh #emoji-picker-tab-panel {
+    backdrop-filter: blur(3px);
     background-color: var(--darkPurple-background-highopacity);
 }
 
+
+/* reaction bar */
 .visual-refresh .popoverReactionHoverBar_f84418 {
     background: var(--darkPurple-background-highopacity);
 }
 
-.visual-refresh .page_c48ade .container__133bf {
-    margin-left: 0;
+
+/* Pinned messages */
+.visual-refresh .messageGroupWrapper__45690 {
+    background: none;
+}
+
+.visual-refresh .header__45690 {
+    background-color: var(--darkPurple-background-highopacity);
+}
+
+.visual-refresh #popout_38590 {
+    backdrop-filter: blur(3px);
 }

@@ -314,6 +314,9 @@
     border-radius: 10px;
     margin: 6px;
     margin-left: 0px;
+    /* extend the guild list to float under the app panel */
+    margin-bottom: calc(0+var(--space-xs)) !important;
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
 }
 
 .visual-refresh .title__85643 {
@@ -894,9 +897,10 @@ background: var(--darkPurple-background);
 .visual-refresh .panels_c48ade {
     /*personal info/status panel*/
     flex: 0 0 auto;
-    background: none;
+    background-color: var(--darkPurple-background-highopacity) !important;
     z-index: 2;
-    border: none;
+    border: 1px solid var(--highlight) !important;
+    backdrop-filter: blur(10px) !important;
 }
 
 .lottieIcon__5eb9b {
@@ -916,8 +920,8 @@ background: var(--darkPurple-background);
     flex-shrink: 0;
     position: relative;
     border-radius: 8px;
-    border: 1px solid var(--highlight);
-    background: var(--darkPurple-background);
+    border: none !important;
+    background: none !important;
     margin-bottom: 16px;
 }
 
@@ -930,13 +934,14 @@ background: var(--darkPurple-background);
     flex-shrink: 0;
     background: var(--darkPurple-background);
     border-radius: 8px;
-    border: 1px solid var(--highlight);
+    border: none !important;
     margin: 3px 0 3px 0;
 }
 
 .visual-refresh .activityPanel_c48ade {
     /*activitypanel*/
-    border-bottom: 1px solid var(--background-modifier-accent);
+    border: none !important;
+    background: none !important;
     position: relative;
     z-index: 2;
     border-radius: 8px;
@@ -1035,7 +1040,7 @@ background: var(--darkPurple-background);
     border: solid 1px var(--highlight);
     border-radius: 8px;
     top: 8px;
-    background: rgba(24, 24, 24, 0.9);
+    background-color: var(--darkPurple-background);
 }
 
 .browser_d98031,
@@ -1510,10 +1515,6 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .stickerAsset__31fc2:hover {
     /* emoji tab */
     background-color: var(--background-message-highlight-hover);
-}
-
-.visual-refresh .emojiPicker_c0e32c {
-    background: var(--darkPurple-background);
 }
 
 .lottieCanvas__31fc2 {
