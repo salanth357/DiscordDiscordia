@@ -1,18 +1,16 @@
 /**
- * @name Lande della Discordia
- * @author ungiglio
+ * @name Lande della Discordia [salanth357 mod]
+ * @author ungiglio + salanth
  * @version 1.1.1
- * @source https://github.com/ungiglio/DiscordDiscordia/
- * @website https://ungiglio.github.io/DiscordDiscordia/
+ * @source https://github.com/salanth357/DiscordDiscordia/
+ * @website https://salanth357.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
- * @authorId 769144538107215872
- * @invite DDaRdZwB4h
 */
 
-@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
+@import url("https://salanth357.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
 /*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css");  /* backgroundless edition */
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
+@import url("https://salanth357.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
+@import url("https://salanth357.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -61,4 +59,4 @@
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     --current-ver: "1.1.1"
-}
+} 
